@@ -1,44 +1,37 @@
-// slider 1
-$(".single-item").slick({
-  dots: true,
-  infinite: true,
-  speed: 500,
-  fade: true,
-  cssEase: "linear",
-  rows: 2,
-});
 
-// slider 2
-$(".responsive").slick({
+
+$(".carousel").slick({
   dots: true,
-  infinite: false,
-  speed: 300,
+  rows: 2,
+  slidesPerRow: 3,
+  prevArrow:
+    "<i class='slick-prev pull-left fas fa-arrow-left' aria-hidden='true'></i>",
+  nextArrow:
+    "<i class=' slick-next pull-right fas fa-arrow-right' aria-hidden='true'></i>",
   responsive: [
     {
-      breakpoint: 1024,
+      breakpoint: 576,
       settings: {
-        slidesPerRow: 3,
-        infinite: true,
-        dots: true,
-        rows: 1,
+        slidesPerRow: 1,
+        rows: 2,
       },
     },
     {
-      breakpoint: 600,
+      breakpoint: 768,
       settings: {
         slidesPerRow: 2,
         rows: 1,
       },
     },
     {
-      breakpoint: 480,
+      breakpoint: 992,
       settings: {
-        slidesPerRow: 1,
-        rows: 2,
+        slidesPerRow: 3,
+        rows: 1
       },
     },
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
   ],
 });
+
+
+
