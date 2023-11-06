@@ -1,18 +1,13 @@
-
-
 $(".carousel").slick({
-  dots: true,
-  rows: 2,
-  slidesPerRow: 3,
-  prevArrow:
-    "<i class='slick-prev pull-left fas fa-arrow-left' aria-hidden='true'></i>",
-  nextArrow:
-    "<i class=' slick-next pull-right fas fa-arrow-right' aria-hidden='true'></i>",
+  rows: 1,
+  slidesPerRow: 4,
+  prevArrow: '<button type="button" class="slick-prev"><img src="images/fork.png" alt="fork"></button>', // Custom HTML for the previous button
+  nextArrow: '<button type="button" class="slick-next"><img src="images/knife.png" alt="knife"></button>', // Custom HTML for the next button
   responsive: [
     {
       breakpoint: 576,
       settings: {
-        slidesPerRow: 1,
+        slidesPerRow: 2,
         rows: 2,
       },
     },
@@ -26,7 +21,7 @@ $(".carousel").slick({
     {
       breakpoint: 992,
       settings: {
-        slidesPerRow: 3,
+        slidesPerRow: 2,
         rows: 1
       },
     },
