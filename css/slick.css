@@ -104,19 +104,25 @@
     margin: 0 50px;
 }
 
+.container  {
+  position: relative;
+}
+
 .slick-next {
     border-width: 1px;
     border-color: rgb(255, 179, 92);
     border-style: solid;
     border-radius: 50%;
     position: absolute;
+    bottom: -40%;
+    left: 56%;
     width: 40px;
     height: 40px;
     background-color: transparent;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-  padding-top: 5px;
+    padding-top: 5px;
 }
 
 .slick-prev {
@@ -125,7 +131,8 @@
   border-style: solid;
   border-radius: 50%;
   position: absolute;
-  top: 50%;
+  bottom: -40%;
+  left: 31%;
   width: 40px;
   height: 40px;
   background-color: transparent;
