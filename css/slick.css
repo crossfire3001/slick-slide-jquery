@@ -188,17 +188,18 @@ p {
     margin: 100px 0 100px 0;
 }
 
-.card {
+/* .card {
     height: 322px;
     background-image: url(../images/feedback-img.png);
-}
+} */
 
 .card__test {
     color: white;
     background-image: url(../images/feedback-img.png);
-    background-size: cover;
-    width: 330px;
-    height: 320px;
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 330px;
+    object-fit: cover;
 }
 
 .card__test-content {
@@ -212,18 +213,10 @@ p {
     padding: 29px 29px 48px 33px;
 }
 
-.social__icons {
+.social-icons {
     display: flex;
     justify-content: space-between;
     width: 75px;
-}
-
-.socials__facebook {
-
-}
-
-.socials__instagram {
-
 }
 
 .socials__content {
