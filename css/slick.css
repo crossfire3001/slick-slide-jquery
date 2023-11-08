@@ -176,9 +176,41 @@ p {
     position: absolute;
     width: 330px;
     height: 322px;
-    z-index: 259;
 }
 
+
+
+
+
+
+/* CARD TEST */
+.card-container {
+    margin: 100px 0 100px 0;
+}
+
+.card {
+    height: 322px;
+    background-image: url(../images/feedback-img.png);
+}
+
+.card__test {
+    color: white;
+    background-image: url(../images/feedback-img.png);
+    background-size: cover;
+    width: 330px;
+    height: 320px;
+}
+
+.card__test-content {
+    border-radius: 5px;
+    background-color: rgba(40, 29, 24, 0.90);
+    background-size: cover;
+    opacity: 0.902;
+    position: absolute;
+    width: 330px;
+    height: 320px;
+    padding: 10px;
+}
 
 
 
