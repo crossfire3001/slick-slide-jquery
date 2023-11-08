@@ -110,6 +110,11 @@
   position: relative;
 }
 
+.menu {
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
 .slick-next {
     border-width: 1px;
     border-color: rgb(255, 179, 92);
@@ -154,6 +159,11 @@ p {
     font-size: 12px;
 }
 
+/* FEEDBACK CAROUSEL */
+.feedback {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
 
 
